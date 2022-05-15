@@ -9,9 +9,8 @@ class Solution{
 public:
 	// function to return sum of  1, 2, ... n
 	long long seriesSum(int n) {
-	    long long s= (((long long)n)*((long long)(n+1)))/2;
-
-    return s;
+	    long long sum = (((long long )n)*((long long)(n+1)))/2;
+	    return sum;
 	}
 };
 
