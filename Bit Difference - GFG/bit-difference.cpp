@@ -14,15 +14,16 @@ class Solution{
     int countBitsFlip(int a, int b){
         
         // Your logic here
-        int value = a^b;
-        int c=0;
-        while(value){
-            if(value&1) c++;
-            value>>=1;
-        }
-        return c;
-
-        
+      
+          int n = a^b;
+          int count = 0;
+          while(n!=0)
+          {
+              int rsb = n&-n;
+              n = n-rsb;
+              count++;
+          }
+          return count;
     }
 };
 
