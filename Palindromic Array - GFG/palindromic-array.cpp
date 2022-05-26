@@ -12,15 +12,24 @@ public:
     int PalinArray(int a[], int n)
     {
     	// code here
+    	
     	for(int i = 0; i<n; i++)
-    {	string s1 = to_string(a[i]);
-         string s2 = s1;
-         reverse(s2.begin(),s2.end());
-           if(s1!=s2)
-           return 0;
-    }
-    return 1;
-        
+    	{
+    	   
+    	    int res = a[i];
+    	    int num = 0;
+    	    while(res>0)
+    	    {
+    	        int rem = res%10;
+    	        num = num*10 + rem;
+    	        res = res/10;
+    	    }
+    	    if(num!=a[i])
+    	    {
+    	        return 0;
+    	    }
+    	}
+    	return 1;
     }
     
 };
