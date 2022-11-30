@@ -1,7 +1,6 @@
 # Find triplets with zero sum
 ## Easy
-<div class="problem-statement">
-                <p></p><p><span style="font-size:18px">Given an array <strong>arr[]&nbsp;</strong>of&nbsp;<strong>n</strong> integers. Check whether it contains a triplet that sums up to zero.&nbsp;</span></p>
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:18px">Given an array <strong>arr[]&nbsp;</strong>of&nbsp;<strong>n</strong> integers. Check whether it contains a triplet that sums up to zero.&nbsp;</span></p>
 
 <p><span style="font-size:18px"><strong>Example 1:</strong></span></p>
 
@@ -26,5 +25,4 @@ with sum equal to 0.</span></pre>
 <span style="font-size:18px"><strong>Constrains:</strong><br>
 1 &lt;= n&nbsp;&lt;= 10<sup>4</sup></span><br>
 <span style="font-size:18px">-10<sup>6</sup></span><span style="font-size:18px">&nbsp;&lt;= A<sub>i</sub> &lt;= 10<sup>6</sup></span></p>
- <p></p>
-            </div>
+</div>
