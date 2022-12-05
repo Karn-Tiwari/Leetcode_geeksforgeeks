@@ -100,9 +100,10 @@ int main() {
 
 // Function to return the ceil of given number in BST.
 int findCeil(Node* root, int input) {
-  
+  // res ko initialize kar denge -1 se
     int res = -1;
-    
+// loop null na ho tab tak chalega
+// given value se sare jyada wale ko dhondhenge uske baad unme se jo sbse chota hoga wo output hoga
    while(root!=NULL)
    {
    if(root->data == input)
