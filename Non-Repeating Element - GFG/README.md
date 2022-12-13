@@ -1,7 +1,6 @@
 # Non-Repeating Element
-## Easy 
-<div class="problem-statement">
-                <p></p><p><span style="font-size:20px">Find the first non-repeating element in a given array<strong> arr</strong> of <strong>N</strong> integers.<br>
+## Easy
+<div class="problems_problem_content__Xm_eO"><p><span style="font-size:20px">Find the first non-repeating element in a given array<strong> arr</strong> of <strong>N</strong> integers.<br>
 <strong>Note:</strong> Array consists of only positive and negative integers and <strong>not zero</strong>.</span></p>
 
 <p><span style="font-size:20px"><strong>Example 1:</strong></span></p>
@@ -34,5 +33,4 @@ This is a function problem. The input is already taken care of by the driver cod
 {A<sub>i</sub> !=0 }</span></p>
 
 <p>&nbsp;</p>
- <p></p>
-            </div>
+</div>
