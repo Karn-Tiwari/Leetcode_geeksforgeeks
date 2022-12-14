@@ -20,7 +20,7 @@ int main()
 string firstRepChar(string s)
 {
     //code here.
-    string
+    //
    string str = "";
    unordered_map<char,int>map;
    for(auto val:s)
