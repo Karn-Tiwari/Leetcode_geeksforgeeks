@@ -1,35 +1,34 @@
-// { Driver Code Starts
+//{ Driver Code Starts
 //Initial template for C++
 
 #include<bits/stdc++.h>
 using namespace std;
 // int maxArea(int A[], int len);
 
- // } Driver Code Ends
+// } Driver Code Ends
 //User function template for C++
 
 long long maxArea(long long A[], int len)
 {
-    // Your code goes here int 
-    int i = 0; 
-        int j = len-1;
-        int water = 0;
-        while(i<j)
-        {
-            int w = j-i;
-            int h = min(A[i],A[j]);
-            water = max(water,h*w);
-            if(A[i]<A[j])   
-                i++;
-            else
-                j--;
-            }
-
-    return water;
-        
+    // Your code goes here
+    int left = 0; 
+    int right = len-1;
+    long long  ans = 0;
+    while(left<right)
+    {
+        long long temp = min(A[left],A[right])*(right-left);
+        ans = max(ans,temp);
+        if(A[left]<A[right])
+        left++;
+        else
+        right--;
+    }
+    return ans;
+    
+    
 }
 
-// { Driver Code Starts.
+//{ Driver Code Starts.
 
 // Driver code
 int main()
@@ -47,4 +46,5 @@ int main()
     }
 return 0;
 }
-  // } Driver Code Ends
+
+// } Driver Code Ends
