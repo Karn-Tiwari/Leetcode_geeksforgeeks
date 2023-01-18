@@ -16,7 +16,9 @@ class Solution {
         small = arr[0] +k;
         large = arr[n-1]-k;
         int result = arr[n-1]-arr[0];
-        // hum kam wale
+        // hum kam wale me k ghatayenge aur small wale se compare karenge  karke sabse small minimum nikalenge 
+        // aese hi maximu k liye karnege
+        // uske baad maximum se minimum ko ghatayenge usme jo value ayegi usme se minimum wala humara answewr hoga
         for(int i = 1; i<=n-1; i++)
         {
             if(arr[i]>=k)
