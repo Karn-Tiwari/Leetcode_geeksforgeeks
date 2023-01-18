@@ -16,6 +16,7 @@ class Solution {
         small = arr[0] +k;
         large = arr[n-1]-k;
         int result = arr[n-1]-arr[0];
+        // hum kam wale
         for(int i = 1; i<=n-1; i++)
         {
             if(arr[i]>=k)
