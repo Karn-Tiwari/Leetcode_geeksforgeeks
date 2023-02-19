@@ -15,10 +15,7 @@ class Solution{
         int mindx = a[i];
        long long int maxdx = a[i+m-1];
         int gap = maxdx-mindx;
-        if(gap<ans)
-        {
-            ans = gap;
-        }
+        ans = min(ans,gap);
     }
     return ans;
     }   
